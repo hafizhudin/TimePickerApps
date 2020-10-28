@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
         newFragment.show(getSupportFragmentManager(),"timePicker");
     }
 
-    public void processTimePickerResult(FragmentActivity activity, TimePickerFragment timePickerFragment, int hourOfDay, int minute, boolean hourFormat) {
+    public void processTimePickerResult(FragmentActivity activity, TimePickerFragment timePickerFragment,
+                                        int hourOfDay, int minute, boolean hourFormat) {
         String hourOfDay_string = Integer.toString(hourOfDay);
         String minute_string = Integer.toString(minute);
         String timeMessage = (hourOfDay_string +
