@@ -1,6 +1,5 @@
 package com.example.pickerfortime;
 
-import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.app.TimePickerDialog;
 import android.os.Bundle;
@@ -22,8 +21,8 @@ import java.util.Calendar;
  * Use the {@link TimePickerFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class TimePickerFragment extends DialogFragment
-                                implements TimePickerDialog.OnTimeSetListener{
+    public class TimePickerFragment extends DialogFragment
+                                    implements TimePickerDialog.OnTimeSetListener{
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
